@@ -1,0 +1,152 @@
+/*
+==========================================================================
+=== Theme: Default Responsive Theme
+=== By: Ebow
+=== Website: http://ebow.ie
+=== Version: 1.0
+=== For: 
+=== Last Edit: 
+========================================================================== 
+*/
+
+
+/*
+===========================================================================
+=== ALL ===================================================================
+===========================================================================
+*/
+
+	/* Basics */
+	.mobile_only {display:none;}
+	.tablet_only {display:none;}
+	.small_tablet_only {display:none;}
+	.responsive_only {display:none;}
+	.desktop_only {display:inline-block;}
+	.hide_on_desktop {display:none;}
+	.hide_on_mobile {display:inline-block;}
+	.hide_on_tablet {display:inline-block;}
+
+/*
+===========================================================================
+=== LARGE DESKTOP ONLY ====================================================
+===========================================================================
+*/
+
+@media only screen and (min-width: 1200px) {
+	
+	/* Basics */
+	.mobile_only {display:none;}
+	.tablet_only {display:none;}
+	.responsive_only {display:none;}
+	.hide_on_mobile {display:inline-block;}
+	.hide_on_tablet {display:inline-block;}
+		
+}
+
+/*
+===========================================================================
+=== SMALL DESKTOP & TABLET LANDSCAPE =====================================
+===========================================================================
+*/
+
+@media only screen and (max-width: 1199px) and (min-width: 1023px) {
+	
+	/* Basics */
+	.mobile_only {display:none;}
+	.tablet_only {display:none;}
+	.responsive_only {display:none;}
+	.hide_on_mobile {display:inline-block;}
+	.hide_on_tablet {display:inline-block;}
+        		
+}
+
+/*
+===========================================================================
+=== TABLET PORTRAIT ONLY ==================================================
+===========================================================================
+*/
+
+@media only screen and (max-width: 810px) and (min-width: 768px) {
+	
+	/* Basics */
+	.mobile_only {display:none;}
+	.tablet_only {display:inline-block;}
+	.responsive_only {display:inline-block;}
+	.desktop_only {display:none;}
+	.hide_on_desktop {display:inline-block;}
+	.hide_on_mobile {display:inline-block;}
+	.hide_on_tablet {display:none;}
+
+	.inner {width: 100%;}
+		
+}
+
+/*
+===========================================================================
+=== PHONE PORTRAIT & LANDSCAPE ===========================================
+===========================================================================
+*/
+
+@media only screen and (max-width: 767px) {
+
+	/* Basics */
+	.mobile_only {display:inline-block;}
+	.tablet_only {display:none;}
+	.responsive_only {display:inline-block;}
+	.desktop_only {display:none;}
+	.hide_on_desktop {display:inline-block;}
+	.hide_on_mobile {display:none;}
+	.hide_on_tablet {display:inline-block;}
+	.hide_on_small_tablet {display:none;}
+	.small_tablet_only {display:inline-block;}
+
+	.inner {width: 100%;}
+	p {padding: 0 30px;}
+	.mobile_top {float: left; width: 100%; background: url('../images/bg_mobile_top.jpg') no-repeat center top #3d6ead; background-size: contain; padding-top:25px; background-size: 100%;}
+	#content .inner {padding: 0; background: url('../images/bg_mobile_bottom.jpg') no-repeat center bottom #3d6ead; background-size: contain; min-height: 1100px; height:auto;}
+	#content form {width: 100%; padding: 0 40px;}
+	#content form ul li {width: 100%;}
+	#content form ul li input[type=text] {width: 100%;}
+	input[type=checkbox].css-checkbox+label.css-label {width: 100%;}
+	#content form ul li input[type=submit] {width: 100%;}
+	#content .question {text-align: center;}
+	#content .question img.mobile_only {display: inline-block;}
+	#content form ul li .radio_wrap {width: auto; margin: 0 15px 15px 0;}
+	#content form ul li:first-child {margin-bottom: 0px;}
+	#content form {padding-bottom: 210px;}
+	footer .footer_bottom { padding: 40px 15px; }
+	#content form ul li .radio_errors .error {text-align: left;}
+	#thank_you>.inner {height: auto; padding: 45px 15px 150px; float: left;}
+	#thank_you .share_bar {float: left; width: 100%; text-align: center;}
+	#thank_you .share_bar li {float: none; display: inline-block; margin-top:15px;}
+	footer .footer_bottom ol {max-height: 108px;}
+	footer .footer_bottom ol.active {max-height: 1500px;}
+	#thank_you .share_text {float: none;}
+	#content form ul li label.error {position: static;}
+
+	.back_btn {height: 50px; background: url('../images/back_logo.png') no-repeat center center #ffffff; position: relative; float: left; width: 100%; text-align: center;}
+	.back_btn:before {content: ''; position: absolute; left: 20px; top:50%; margin-top:-13px; width: 14px; height: 26px; background: url('../images/back_arrow.png') no-repeat center center;}
+}
+
+/*
+===========================================================================
+=== PHONE PORTRAIT ONLY ===================================================
+===========================================================================
+*/
+
+@media only screen and (max-width: 460px) {
+	
+	/* Basics */
+	.mobile_only {display:inline-block;}
+	.tablet_only {display:none;}
+	.responsive_only {display:inline-block;}
+	.desktop_only {display:none;}
+	.hide_on_desktop {display:inline-block;}
+	.hide_on_mobile {display:none;}
+	.hide_on_tablet {display:inline-block;}
+	.hide_on_small_tablet {display:inline-block;}
+	.small_tablet_only {display:none;}
+				
+}
+
+

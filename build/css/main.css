@@ -1,0 +1,123 @@
+/*
+==========================================================================
+=== Theme: National Concert Hall Facebook Application
+=== By: Ebow
+=== Website: http://ebow.ie
+=== Version: 1.0
+========================================================================== 
+*/
+
+/*
+===========================================================================
+=== BASE STYLE ============================================================
+===========================================================================
+*/   
+
+html, body {height: 100%; color: #FFFFFF; font-family: 'Arial';}
+
+/* Slow hover effect */
+a, input[type='submit'], button, input[type='submit'], #content form ul li button:after {text-decoration:none; color:#666666; text-decoration:none; -o-transition: all .3s ease-out; -ms-transition:all .3s ease-out; -moz-transition:all .3s ease-out; -webkit-transition:all .3s ease-out; transition:all .3s ease-out;}
+
+/* Fonts */
+p {font-size: 15px; color: #FFFFFF; line-height: 24px; margin: 0 0 25px;}
+
+/* Layout */
+.outer {width:100%; float:left; clear:both;}
+.inner {width: 810px; padding: 0px; margin: 0 auto; clear:both;}
+.center_outer {width: 100%; height: 100%; display: table; table-layout: fixed;}
+.center_outer .center_inner {width: 100%; height: 100%; display: table-cell; vertical-align: middle;}
+
+input[type=checkbox].css-checkbox {position:absolute; z-index:-1000; left:-1000px; overflow: hidden; clip: rect(0 0 0 0); height:1px; width:1px; margin:-1px; padding:0; border:0;}
+input[type=checkbox].css-checkbox + label.css-checkboxlabel {padding-left:30px; height:25px; display:inline-block; line-height:20px; background-repeat:no-repeat; background-position: 0 5px; font-size:12px; vertical-align:middle; cursor:pointer; }
+input[type=checkbox].css-checkbox:checked + label.css-checkboxlabel {background-image:url('../images/select_box_on.png');}
+label.css-checkboxlabel {background-image:url('../images/select_box_off.png'); -webkit-touch-callout: none; -webkit-user-select: none; -khtml-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none;}
+
+input[type=radio].css-checkbox {position:absolute; z-index:-1000; left:-1000px; overflow: hidden; clip: rect(0 0 0 0); height:1px; width:1px; margin:-1px; padding:0; border:0;}
+input[type=radio].css-checkbox + label.css-radiolabel {padding-left:33px; height:23px; display:inline-block; line-height:23px; background-repeat:no-repeat; background-position: 0 0; font-size:14px; vertical-align:middle; cursor:pointer;}
+input[type=radio].css-checkbox:checked + label.css-radiolabel {background-position: 0 -23px;}
+label.css-radiolabel {background-image:url('../images/radio.png'); -webkit-touch-callout: none; -webkit-user-select: none; -khtml-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none;}
+label.css-checkboxlabel a {color: #FFFFFF; text-decoration: underline;}
+
+::-webkit-input-placeholder {color: #00a25b; font-size: 13px; text-transform: uppercase; letter-spacing: 2px;}
+:-moz-placeholder {color: #00a25b; opacity:  1; font-size: 13px; text-transform: uppercase; letter-spacing: 2px;}
+::-moz-placeholder {color: #00a25b; opacity:  1; font-size: 13px; text-transform: uppercase; letter-spacing: 2px;}
+:-ms-input-placeholder {color: #00a25b; font-size: 13px; text-transform: uppercase; letter-spacing: 2px;}
+
+/*
+===========================================================================
+=== CONTENT ===============================================================
+===========================================================================
+*/
+
+#content .inner {height: 1028px; text-align: center; background: url('../images/bg_main_desktop.jpg') no-repeat center center; padding: 35px 90px 150px;}
+#content .top_text {margin-bottom: 30px;}
+#content .question {border-top:1px solid #FFFFFF; border-bottom: 1px solid #FFFFFF; padding: 30px 0; width: 100%; float: left; margin-bottom: 23px;}
+#content form {width: 100%; display: inline-block; float: left; padding:0 50px 0;}
+#content form ul {float: left; width: 100%; list-style: none;}
+#content form ul li {float: none; width: 49%; margin:0 auto 15px; position: relative;}
+#content form ul li:first-child {width: 100%; margin: 10px 0 30px;}
+#content form ul li:nth-child(2n+3) {float: none; clear: right; }
+#content form ul li:nth-child(6), #content form ul li:nth-child(7) {width: 100%; text-align: center;}
+#content form ul li .radio_wrap {width: 33%; text-align: center; float: left;}
+#content form ul li .select_wrapper {border:1px solid #e9e9e9; width: 100%; float: left; background:#FFFFFF; height: 45px; overflow: hidden; position: relative;}
+#content form ul li .select_wrapper:after {content: ''; position: absolute; top:0px; right: 0px; width: 35px; height: 45px; background: url('../images/select_arrow.png') no-repeat left center; pointer-events: none;}
+#content form ul li .select_wrapper.with_error {border-color:#ee5e32;}
+#content form ul li .select_wrapper select {padding:0 10px 0; height:45px; -webkit-appearance: none; -moz-appearance: none; appearance: none; background: transparent; width: 100%; float: left; border:0; outline: none; color: #00a25b; font-size: 13px; text-transform: uppercase; letter-spacing: 2px; }
+#content form ul li input[type='text'] {border:1px solid #e9e9e9; float:right; width: 100%; height:45px; background:#FFFFFF; padding: 0 10px 0; outline: none; }
+#content form ul li input[type='text'].error {border-color:#ee5e32;}
+#content form ul li.terms_holder {margin-bottom: 30px;}
+#content form ul li.terms_holder label {font-size: 11px; font-style: italic; width: 250px; text-align: left;}
+#content form ul li button {position:relative; border:0; background: #00a25b; border-radius:3px; text-align: left; padding-left:27px; height: 50px; width: 250px; float: none; text-transform: uppercase; color: #FFFFFF; font-size: 18px; font-weight:bold; outline: none;}
+#content form ul li button:after {content: ''; width: 11px; height: 17px; background: url('../images/icon_arrow.png'); top:50%; margin-top:-8px; right: 40px; position: absolute;}
+#content form ul li button:hover:after, #content form ul li button:focus:after, #content form ul li button:active:after {right: 30px;}
+#content form ul li label.error {float: right; text-align: left; width: 100%; font-size:15px; color: #ee5e32; padding:0px; margin:5px 0 0; text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.5); position: absolute; left: 102%; top: 6px;}
+#content form ul li.terms_holder label.error {left: 48%; top:-18px; font-style: normal;}
+#content form ul li:first-child label.error {position: static;}
+#content form ul li .radio_errors .error {text-align: center;}
+#content form ul li.terms_holder .error {text-align: center; margin-top:20px;}
+
+/*
+===========================================================================
+=== THANK YOU =============================================================
+===========================================================================
+*/
+
+#thank_you > .inner {height: 785px; text-align: center; background: url('../images/bg_thankyou_desktop.png') no-repeat center center; padding: 70px 120px 350px;}
+#thank_you .inner p {font-size: 16px;}
+#thank_you .inner p a {color: #FFFFFF; text-decoration: underline; font-weight: bold;}
+#thank_you .text_top {margin-bottom: 25px;}
+#thank_you .share_wrapper {border-bottom: 1px solid #FFFFFF; border-top: 1px solid #FFFFFF; padding: 30px 0; width: 100%; float: left;}
+#thank_you .share_bar {float: right;}
+#thank_you .share_bar li {display: inline-block; margin:0 7px; float: left;}
+#thank_you .share_bar li a {display: block; width: 51px; height: 51px; background-repeat: no-repeat; background-position: center center; background-size: 100% 100%; text-indent: -9999px; text-transform: capitalize;}
+#thank_you .share_bar li a.facebook {background-image: url('../images/icon_facebook.png');}
+#thank_you .share_bar li a.google {background-image: url('../images/icon_google.png');}
+#thank_you .share_bar li a.twitter {background-image: url('../images/icon_twitter.png');}
+#thank_you .share_text {float: left; margin-top: 17px;} 
+
+.video_link .inner {height: 243px; background: url('../images/bg_thankyou_bottom_desktop.png') no-repeat center center; background-size: cover;}
+.footer_thankyou .inner {height: 185px; background: url('../images/bg_footer_desktop.png') no-repeat -20px -20px #008443; background-size: cover; text-align: center;}
+
+/*
+===========================================================================
+=== FOOTER ================================================================
+===========================================================================
+*/
+
+footer .inner {background: url('../images/bg_footer_desktop.png') no-repeat -20px 60px #008443;}
+footer .footer_bottom {padding: 40px 50px; float: left; width: 100%; text-align: center;}
+footer .footer_bottom img {margin-bottom: 40px;}
+footer .footer_bottom h3 {margin:0 0 20px; font-size: 13px; line-height: 15px; text-align: center; font-weight: bold;}
+footer .footer_bottom ol {margin-bottom:30px; float: left; width: 100%; list-style-position: inside; max-height: 98px; overflow: hidden; -webkit-transition: all 0.4s ease-out; -moz-transition: all 0.4s ease-out 1s; -o-transition: all 0.4s ease-out; transition: all 0.4s ease-out;}
+footer .footer_bottom ol.active {max-height: 1000px;}
+footer .footer_bottom ol li {float: left; margin-bottom: 10px; width: 100%; text-align: left; font-size: 12px; font-weight: normal;}
+footer .footer_bottom .see_more {font-style: italic; font-size: 13px; text-align: center; padding-right: 20px; background: url('../images/arrow_down.png') no-repeat right center; width: 80px; display: block; margin: 0 auto; cursor: pointer;}
+footer .footer_bottom .see_more.active {background: url('../images/arrow_up.png') no-repeat right center;}
+
+/*
+===========================================================================
+=== MISC ==================================================================
+===========================================================================
+*/
+
+.mobile_only {display:none;}

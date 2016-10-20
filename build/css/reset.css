@@ -1,0 +1,130 @@
+/*
+	Theme Name: Default Wordpress Template
+	Description: Default Wordpress Responsive theme by Ebow.
+	Author: Ebow 
+	Author URI: http://ebow.ie/
+	Version: 1.0
+*/
+*, *:before, *:after {-moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;}
+article, aside, details, figcaption, figure, footer, header, hgroup, nav, section, summary {display: block;}
+audio, canvas, video { display: inline-block; *display: inline;*zoom: 1;}
+audio:not([controls]) {display: none; height: 0;}
+[hidden] {display: none;}
+html {font-size: 100%; /* 1 */ -webkit-text-size-adjust: 100%; /* 2 */ -ms-text-size-adjust: 100%; /* 2 */}
+html, button, input, select, textarea {font-family: 'Source Sans Pro', Helvetica, Georgia;}
+input {-webkit-appearance: none; border-radius: 0;}
+body { margin: 0;}
+a:focus {outline: 0 !important;}
+a:active, a:hover {outline: 0;}
+abbr[title] { border-bottom: 1px dotted;}
+b, strong {font-weight: bold;}
+blockquote { margin: 0px;}
+dfn {font-style: italic;}
+mark {background: #ff0; color: #000;}
+p, pre {margin: 10px 0;}
+code, kbd, pre, samp {font-family: monospace, serif; _font-family: 'courier new', monospace; font-size: 1em;}
+pre {white-space: pre; white-space: pre-wrap; word-wrap: break-word;}
+q {quotes: none;}
+q:before, q:after {content: ''; content: none;}
+small {font-size: 80%;}
+sub, sup {font-size: 75%; line-height: 0; position: relative; vertical-align: baseline;}
+sup {top: -0.5em;}
+sub {bottom: -0.25em;}
+dl, menu, ol, ul {margin: 0;}
+dd {margin: 0;}
+menu, ol, ul {padding: 0;}
+nav ul, nav ol {list-style: none; list-style-image: none;}
+img { border: 0; -ms-interpolation-mode: bicubic; }
+svg:not(:root) { overflow: hidden;}
+figure {margin: 0;}
+form {margin: 0;}
+fieldset {border: 1px solid #c0c0c0; margin: 0 2px; padding: 0.35em 0.625em 0.75em;}
+legend { border: 0; /* 1 */ padding: 0; white-space: normal; /* 2 */ *margin-left: -7px; /* 3 */}
+button, input, select, textarea {font-size: 100%; /* 1 */ margin: 0; /* 2 */ vertical-align: baseline; /* 3 */ *vertical-align: middle; /* 3 */}
+button, input { line-height: normal;}
+button, html input[type="button"], /* 1 */ input[type="reset"], input[type="submit"] { -webkit-appearance: button; /* 2 */ cursor: pointer; /* 3 */ *overflow: visible;  /* 4 */}
+button[disabled], input[disabled] { cursor: default;}
+input[type="checkbox"], input[type="radio"] { box-sizing: border-box; /* 1 */ padding: 0; /* 2 */ *height: 13px; /* 3 */ *width: 13px; /* 3 */}
+input[type="search"] {-webkit-appearance: textfield; /* 1 */ -moz-box-sizing: content-box; -webkit-box-sizing: content-box; /* 2 */ box-sizing: content-box;}
+input[type="search"]::-webkit-search-cancel-button, input[type="search"]::-webkit-search-decoration {-webkit-appearance: none;}
+button::-moz-focus-inner, input::-moz-focus-inner {border: 0; padding: 0;}
+textarea {overflow: auto; /* 1 */ vertical-align: top; /* 2 */}
+table {border-collapse: collapse; border-spacing: 0;}
+
+
+/*
+ * HTML5 Boilerplate
+ *
+ * What follows is the result of much research on cross-browser styling.
+ * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
+ * Kroc Camen, and the H5BP dev community and team.
+ */
+
+/* ==========================================================================
+   Base styles: opinionated defaults
+   ========================================================================== */
+
+html, button, input, select, textarea {color: #222;}
+body {font-size: 1em; line-height: 1.4;}
+::-moz-selection {background: #b3d4fc; text-shadow: none;}
+::selection {background: #b3d4fc; text-shadow: none;}
+hr {display: block;height: 1px; border: 0; border-top: 1px solid #ccc; margin: 1em 0; padding: 0;}
+img { vertical-align: middle;}
+fieldset { border: 0; margin: 0; padding: 0;}
+textarea {resize: vertical;}
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+.ir {background-color: transparent; border: 0; overflow: hidden;  /* IE 6/7 fallback */ *text-indent: -9999px;}
+.ir:before { content: ""; display: block; width: 0; height: 100%;}
+.hidden { display: none !important; visibility: hidden;}
+.visuallyhidden { border: 0; clip: rect(0 0 0 0); height: 1px; margin: -1px; overflow: hidden; padding: 0; position: absolute; width: 1px;}
+.visuallyhidden.focusable:active, .visuallyhidden.focusable:focus {clip: auto; height: auto; margin: 0; overflow: visible; position: static; width: auto;}
+.invisible { visibility: hidden;}
+.clearfix:before, .clearfix:after { content: " "; /* 1 */ display: table; /* 2 */}
+.clearfix:after { clear: both;}
+.clearfix { *zoom: 1; clear:both;}
+
+/* ==========================================================================
+   Print styles.
+   ========================================================================== */
+
+@media print {
+	.non-printable { display: none; }
+    .printable { display: block; }
+    * {background: transparent !important; color: #000 !important; /* Black prints faster: h5bp.com/s */ box-shadow:none !important; text-shadow: none !important;}
+    a,  a:visited { text-decoration: underline; }
+    a[href]:after { content: " (" attr(href) ")";}
+    abbr[title]:after {content: " (" attr(title) ")";}
+    .ir a:after, a[href^="javascript:"]:after, a[href^="#"]:after { content: "";}
+    pre, blockquote {border: 1px solid #999; page-break-inside: avoid;}
+    thead {display: table-header-group; /* h5bp.com/t */}
+    tr, img {page-break-inside: avoid;}
+    img {max-width: 100% !important;}
+    @page {margin: 0.5cm;}
+    p, h2, h3 { orphans: 3; widows: 3;}
+    h2, h3 {page-break-after: avoid;}
+}
+
+/* ==========================================================================
+   Layout
+   ========================================================================== */
+
+.aligncenter { display:block; margin:0 auto; }
+.alignleft { float:left; }
+.alignright { float:right; }
+.wp-caption { border:1px solid #666; text-align:center; background:#ccc; padding:10px; margin:10px; }
+li#theme-switcher { background:#fff; border:10px solid red; padding:20px; position:fixed; top:0; right:0 } /* Use this if you have the Theme Switcher Reloaded plugin (http://themebot.com/webmaster-tools/1-wordpress-theme-switcher-reloaded) installed and want to make it nice and obvious */
+.alert { background:red; color:white } /* 'alert' has a basic style, since it's useful to have it standing out for testing purposes.
+/** START WordPress-Defined CSS Classes **/
+.wp-caption-text{}
+.gallery-caption{}
+.bypostauthor{}
+.sticky{}
+/** Keep drop-downs working **/
+#access li {float: left;position: relative;}
+#access ul ul {display: none;	float: left;	position: absolute;top: 3.333em;left: 0;	z-index: 99999;}
+#access ul ul ul {left: 100%;	top: 0;}
+#access ul li:hover > ul {display: block;}
+/** END WordPress-Defined CSS Classes **/
