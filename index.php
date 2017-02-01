@@ -11,9 +11,9 @@
     <meta name="theme-color" content="#FFFFFF">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
     <meta property="og:image" content="assets/images/facebook-og.jpg" />
-    <meta property="og:description" content="That's right. Irish Ferries are offering a luxury break to Ireland. The prize includes Club Class Ferry Travel to Ireland with your car and a two night stay for 2 adults in Athaneanum House in Waterford. " />
-    <meta property="og:url" content="http://ebowfb.com/irishferries-travel-together/" />
-	<title>Irish Ferries Competition</title>
+    <meta property="og:description" content="Competition" />
+    <meta property="og:url" content="" />
+	<title>Facebook Competition</title>
 	
 	<!--[if IE ]><link rel="stylesheet" href="assets/css/ie-starter.css" /><![endif]-->
     
@@ -73,16 +73,6 @@
                 <img class="text_top hide_on_mobile" src="assets/images/text_desktop_thankyou_top.png" />
                 <img class="text_top mobile_only" src="assets/images/text_mobile_thankyou_top.png" />
                 <p>We’ll be contacting our lucky winner by 30th june 2016</p>
-                <p>In the meantime, why not check out <a href="http://www.irishferries.com/ie-en/to-britain-from-ireland/" target="_blank">Irish Ferries</a> and <a href="http://athenaeumhousehotel.com/" target="_blank">Athenaeum House Hotel</a>?</p>
-                <div class="share_wrapper">
-                    <img class="share_text hide_on_mobile" src="assets/images/text_desktop_thankyou_bottom.png" />
-                    <img class="share_text mobile_only" src="assets/images/text_mobile_thankyou_bottom.png" />
-                    <ul class="share_bar">
-                        <li><a class="facebook" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=http://ebowfb.com/irishferries-travel-together/" title="Facebook">Facebook</a></li>
-                        <li><a class="twitter" target="_blank" href="https://twitter.com/home?status=http://ebowfb.com/irishferries-travel-together/" title="Twitter">Twitter</a></li>
-                        <li><a class="google" target="_blank" href="https://plus.google.com/share?url=http://ebowfb.com/irishferries-travel-together/" title="Google Plus">Google Plus</a></li>
-                    </ul>
-                </div>
             </div>   
             <a href="" class="video_link"><div class="inner"></div></a>
             <div class="footer_thankyou">
@@ -107,9 +97,7 @@
                         <img src="assets/images/text_desktop_top.png" />
                     </div>
                     <p>
-                        That's right. Irish Ferries are offering a luxury break to Ireland.
-                        The prize includes Club Class Ferry Travel to Ireland with your car
-                        and a two night stay for 2 adults in Athaneanum House in Waterford. 
+                        That's right. We are offering a luxury break to Ireland. 
                     </p>
                 </div>
                 <p>To be in with a chance of winning, simply answer the question and submit your details below.</p>
@@ -175,33 +163,9 @@
         <footer class="outer">
             <div class="inner">
                 <div class="footer_bottom" id="rules">
-                    <a href="http://www.irishferries.com/ie-en/to-britain-from-ireland/" target="_blank"><img src="assets/images/logo.png" /></a>
-                    <h3>Terms & Conditions</h3>
+                        <h3>Terms & Conditions</h3>
                      <ol>
-                        <li>All entrants must be over 18 years of age. Irish Ferries reserves the right to request written proof of age of the winning Entrant.</li>
-                        <li>Anyone that enters the Competition agrees to the terms and conditions that govern Competition and by submitting an entry to the Competition each Entrant agrees to be bound by these.</li>
-                        <li>For contestants in the UK, the prize includes return ferry crossing from Britain for two, including Club Class Travel, two nights Bed & Breakfast accommodation for 2 people sharing a twin or double room in Athenaeum House Hotel.</li>
-                        <li>Contestants in the Republic of Ireland are entitled to two nights Bed & Breakfast accommodation for 2 people sharing a twin or double room in Athenaeum House Hotel.</li>
-                        <li>Valid for stay between now and 19 June 2017 (excludes 22 December 2016 – 1 January 2017).</li>
-                        <li>Ferry travel is available on a cruise ferry crossing only from either Holyhead or Pembroke with the dates to be agreed by both Irish Ferries and the winner.</li>
-                        <li>This prize cannot be used in conjunction with any other discounts or special offers.</li>
-                        <li>The prize cannot be exchanged and duplicates will not be issued for lost tickets/vouchers.</li>
-                        <li>Tickets/vouchers are non-transferable and must not be resold.</li>
-                        <li>Unless otherwise stated, entries must arrive by the published closing date for the competition.</li>
-                        <li>Entries received after this time will be disqualified. Irish Ferries may, at its discretion, extend the closing date without prior notice.</li>
-                        <li>Irish Ferries reserves the right to change the rules or void the competition at any time.</li>
-                        <li>Prize is as stated and there is no cash alternative in any circumstances whatsoever to prizes offered. Prizes are not transferable unless otherwise stated.</li>
-                        <li>If the winner of the competition is unable to take up the prize for any reason Irish Ferries reserves the right to award it to an alternative winner, in which case the first winner chosen will not be eligible for any share of the prize whatsoever.</li>
-                        <li>If the winner(s) of the prize cannot be traced after reasonable efforts having been made, Irish Ferries may dispose of the prize as it thinks fit without any liability to the winner(s) for having done so.</li>
-                        <li>All winners are required to co-operate with Irish Ferries to publicise their win as Ferries deems appropriate.</li>
-                        <li>Failure to comply with any of these rules will disqualify an entry from taking part in the competition. Irish Ferries reserves the right to disqualify any entry at its absolute discretion.</li>
-                        <li>Irish Ferries’ decision is final in all matters concerning the competition.</li>
-                        <li>It is a condition of entry to the competition that the entrant agrees to be bound by these rules.</li>
-                        <li>Where prizes are to be provided by a third party then the winner will be required to complete all appropriate or applicable booking or other formalities direct with such provider. Irish Ferries will have no responsibility for the acts or defaults of any other persons.</li>
-                        <li>Email addresses supplied by entrants can be used for promotional purposes by Irish Ferries.  Entrants to the competition agree to this condition. Entrants can unsubscribe from Irish Ferries’ email distribution list at any time.</li>
-                        <li>The prize is not in conjunction with any other offers.</li>
-                        <li>Competition closes on 21.06.16.  Winner will be announced before the 30.06.16</li>
-                        <li>Details of the winner will be posted on Irish Ferries social media channels and will be contacted via email.</li>
+                        <li>All entrants must be over 18 years of age.</li>
                     </ol>
                     <div class="clearfix"></div>
                     <div class="see_more">See more</div>
